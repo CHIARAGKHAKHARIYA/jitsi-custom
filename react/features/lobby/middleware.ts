@@ -138,8 +138,9 @@ StateListenerRegistry.register(
                             name
                         })
                     );
+                    dispatch(approveKnockingParticipant(id));
                     if (soundsParticipantKnocking) {
-                        dispatch(playSound(KNOCKING_PARTICIPANT_SOUND_ID));
+                        // dispatch(playSound(KNOCKING_PARTICIPANT_SOUND_ID));
                     }
 
                     const isParticipantsPaneVisible = getParticipantsPaneOpen(getState());
