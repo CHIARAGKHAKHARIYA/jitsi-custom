@@ -96,7 +96,7 @@ copyFolderRecursiveSync('./lang', '.');
 copyFolderRecursiveSync('./modules', '.');
 copyFolderRecursiveSync('./react', '.');
 copyFolderRecursiveSync('./service', '.');
-copyFolderRecursiveSync('./ios/sdk/sdk.xcodeproj', './ios');
+copyFolderRecursiveSync('./ios/sdk.xcodeproj', './ios');
 copyFolderRecursiveSync(`${iosSrcPath}/callkit`, iosDestPath);
 copyFolderRecursiveSync(`${iosSrcPath}/dropbox`, iosDestPath);
 fs.copyFileSync(`${iosSrcPath}/AppInfo.m`, `${iosDestPath}/AppInfo.m`);
