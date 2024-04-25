@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const packageJSON = require('https://github.com/jitsi/jitsi-meet/blob/master/package.json');
+const packageJSON = require('./json/Package.json');
 
 const SDKPackageJSON = require('./package.json');
 
