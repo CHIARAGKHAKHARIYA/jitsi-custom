@@ -131,7 +131,7 @@ fs.copyFileSync(
 );
 fs.copyFileSync(`${iosSrcPath}/POSIX.m`, `${iosDestPath}/POSIX.m`);
 fs.copyFileSync(`${iosSrcPath}/Proximity.m`, `${iosDestPath}/Proximity.m`);
-copyFolderRecursiveSync(`${androidSourcePath}/log`, `${androidTargetPath}/log`);
+// copyFolderRecursiveSync(`${androidSourcePath}/log`, `${androidTargetPath}/log`);
 copyFolderRecursiveSync(
   `${androidMainSourcePath}/values`,
   `${androidMainTargetPath}`
@@ -156,7 +156,7 @@ copyFolderRecursiveSync(
   `${androidMainSourcePath}/drawable-xxxhdpi`,
   `${androidMainTargetPath}`
 );
-copyFolderRecursiveSync(`${androidSourcePath}/net`, `${androidTargetPath}/log`);
+// copyFolderRecursiveSync(`${androidSourcePath}/net`, `${androidTargetPath}/log`);
 fs.copyFileSync(
   `${androidSourcePath}/AndroidSettingsModule.java`,
   `${androidTargetPath}/AndroidSettingsModule.java`
