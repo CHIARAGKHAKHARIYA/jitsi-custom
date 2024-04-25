@@ -5,8 +5,8 @@ const packageJSON = require('./json/Package.json');
 
 const SDKPackageJSON = require('./package.json');
 
-const androidSourcePath = '../android/sdk/src/main/java/org/jitsi/meet/sdk';
-const androidMainSourcePath = '../android/sdk/src/main/res';
+const androidSourcePath = './android/src/main/java/org/jitsi/meet/sdk';
+const androidMainSourcePath = './android/sdk/src/main/res';
 const androidTargetPath = './android/src/main/java/org/jitsi/meet/sdk';
 const androidMainTargetPath = './android/src/main/res';
 const iosSrcPath = './ios/src';
