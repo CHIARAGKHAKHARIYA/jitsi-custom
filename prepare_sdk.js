@@ -90,13 +90,13 @@ function mergeDependencyVersions() {
 // TODO: put this in a seperate step
 mergeDependencyVersions();
 
-copyFolderRecursiveSync('../images', '.');
-copyFolderRecursiveSync('../sounds', '.');
-copyFolderRecursiveSync('../lang', '.');
-copyFolderRecursiveSync('../modules', '.');
-copyFolderRecursiveSync('../react', '.');
-copyFolderRecursiveSync('../service', '.');
-copyFolderRecursiveSync('../ios/sdk/sdk.xcodeproj', './ios');
+copyFolderRecursiveSync('./images', '.');
+copyFolderRecursiveSync('./sounds', '.');
+copyFolderRecursiveSync('./lang', '.');
+copyFolderRecursiveSync('./modules', '.');
+copyFolderRecursiveSync('./react', '.');
+copyFolderRecursiveSync('./service', '.');
+copyFolderRecursiveSync('./ios/sdk/sdk.xcodeproj', './ios');
 copyFolderRecursiveSync(`${iosSrcPath}/callkit`, iosDestPath);
 copyFolderRecursiveSync(`${iosSrcPath}/dropbox`, iosDestPath);
 fs.copyFileSync(`${iosSrcPath}/AppInfo.m`, `${iosDestPath}/AppInfo.m`);
